@@ -1,3 +1,4 @@
+//if(pokeHub != null && pokeHub.length > 0)
 class PokeHub {
   List<Pokemon> pokemon;
 

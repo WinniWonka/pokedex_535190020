@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart' show Align, Alignment, AppBar, BorderRadius, BoxDecoration, BoxFit, BuildContext, Card, Colors, Column, Container, DecorationImage, EdgeInsets, FilterChip, FontWeight, Hero, MainAxisAlignment, MediaQuery, NetworkImage, Padding, Positioned, RoundedRectangleBorder, Row, Scaffold, Stack, StatelessWidget, Text, TextStyle, Widget;
 import 'package:flutter/src/painting/rounded_rectangle_border.dart' show RoundedRectangleBorder;
 import 'package:pokedex/pokemon.dart';
+//using flutter 2.2.0-10.1.pre
 
 class PokeDetail extends StatelessWidget {
   final Pokemon pokemon;

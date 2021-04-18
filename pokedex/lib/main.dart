@@ -4,8 +4,8 @@ import 'package:http/http.dart' as http;
 import 'package:pokedex/pokemon.dart';
 import 'package:pokedex/pokemondetail.dart';
 
-//App di test di Android 10 & Web Chrome
-//chrome run : flutter run -d chrome --web-renderer html
+//App di test di Android 10 & Web Chrome.
+//chrome run : flutter run -d chrome --web-renderer html.
 
 void main() => runApp(MaterialApp(
       title: "Pokedex",
