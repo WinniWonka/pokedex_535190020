@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart' show Align, Alignment, AppBar, BorderRadius, BoxDecoration, BoxFit, BuildContext, Card, Colors, Column, Container, DecorationImage, EdgeInsets, FilterChip, FontWeight, Hero, MainAxisAlignment, MediaQuery, NetworkImage, Padding, Positioned, RoundedRectangleBorder, Row, Scaffold, Stack, StatelessWidget, Text, TextStyle, Widget;
-// ignore: implementation_imports
 import 'package:flutter/src/painting/rounded_rectangle_border.dart';
 import 'package:pokedex/pokemon.dart';
 
