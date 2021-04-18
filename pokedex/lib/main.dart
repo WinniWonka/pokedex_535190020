@@ -370,7 +370,7 @@ class Search extends SearchDelegate<String> {
             .toList(),
       ),
     );
-  }
+  } 
 
   @override
   Widget buildSuggestions(BuildContext context) {

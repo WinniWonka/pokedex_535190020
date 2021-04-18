@@ -5,7 +5,7 @@ class PokeHub {
 
   PokeHub.fromJson(Map<String, dynamic> json) {
     if (json['pokemon'] != null) {
-      pokemon = new List<Pokemon>();
+      pokemon = <Pokemon>[];
       json['pokemon'].forEach((v) {
         pokemon.add(new Pokemon.fromJson(v));
       });
@@ -76,13 +76,13 @@ class Pokemon {
     multipliers = json['multipliers']?.cast<double>();
     weaknesses = json['weaknesses'].cast<String>();
     if (json['next_evolution'] != null) {
-      nextEvolution = new List<NextEvolution>();
+      nextEvolution = <NextEvolution>[];
       json['next_evolution'].forEach((v) {
         nextEvolution.add(new NextEvolution.fromJson(v));
       });
     }
     if (json['prev_evolution'] != null) {
-      prevEvolution = new List<PrevEvolution>();
+      prevEvolution = <PrevEvolution>[];
       json['prev_evolution'].forEach((v) {
         prevEvolution.add(new PrevEvolution.fromJson(v));
       });
